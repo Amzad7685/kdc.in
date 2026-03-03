@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Katigorah Diagnostic Centre | Pathology, Ultrasound, ECG & Specialists</title>
+  <meta name="description" content="Katigorah Diagnostic Centre, Siddeshwar Part-II, Cachar, Assam. Pathology, Ultrasound (USG starting at ₹1300), ECG and visiting doctors.">
+  <meta name="keywords" content="Katigorah Diagnostic Centre, Dr Taiyeebur Rahman Mazumder, Dr Piyalee Nath, ultrasound Katigorah, ECG Katigorah, diagnostic centre Assam">
+  <meta name="author" content="Katigorah Diagnostic Centre">
+
+  <!-- ── Fonts: Merriweather (headings) + Source Sans Pro (body) ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── Calm & Trustworthy Theme · Classic & Professional Fonts ── */
+    :root {
+      --green-dark:    #2d6a4f;
+      --green-mid:     #40916c;
+      --green-soft:    #74c69d;
+      --green-light:   #d8f3dc;
+      --green-xlight:  #f0faf2;
+      --warm-white:    #fdfefe;
+      --warm-cream:    #f9f5f0;
+      --warm-tan:      #e9ddd0;
+      --accent-gold:   #d4a54a;
+      --text-dark:     #1b3a2d;
+      --text-body:     #3d5a47;
+      --text-muted:    #7a9485;
+      --border-soft:   #c8e6d0;
+      --shadow-sm:     0 2px 8px rgba(45,106,79,0.08);
+      --shadow-md:     0 8px 24px rgba(45,106,79,0.12);
+      --shadow-lg:     0 16px 48px rgba(45,106,79,0.16);
+      --radius-sm:     8px;
+      --radius-md:     14px;
+      --radius-lg:     22px;
+      --radius-pill:   999px;
+
+      /* ── Font stack ── */
+      --font-heading:  'Merriweather', Georgia, 'Times New Roman', serif;
+      --font-body:     'Source Sans 3', 'Segoe UI', Arial, sans-serif;
+
+      --transition:    0.25s ease;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.75;
+      background: var(--warm-cream);
+      color: var(--text-body);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* Headings use Merriweather */
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+      color: var(--text-dark);
+      line-height: 1.3;
+      font-weight: 700;
+    }
+
+    h1 { font-size: clamp(1.9rem, 3.5vw, 2.8rem); font-weight: 900; }
+    h2 { font-size: clamp(1.4rem, 2.5vw, 1.9rem); }
+    h3 { font-size: 1.1rem; }
+
+    /* ── Container ── */
+    .container {
+      width: 100%;
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    section { padding: 4rem 0; }
+    @media (max-width: 600px) { section { padding: 2.8rem 0; } }
+
+    /* ── Buttons ── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.6rem 1.4rem;
+      border-radius: var(--radius-pill);
+      border: 2px solid transparent;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all var(--transition);
+    }
+
+    .btn-sm { padding: 0.32rem 0.85rem; font-size: 0.78rem; }
+
+    .btn-primary {
+      background: var(--green-mid);
+      color: #fff;
+      border-color: var(--green-mid);
+      box-shadow: 0 6px 18px rgba(64,145,108,0.35);
+    }
+    .btn-primary:hover { background: var(--green-dark); border-color: var(--green-dark); transform: translateY(-2px); box-shadow: 0 10px 26px rgba(45,106,79,0.4); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--green-mid);
+      border-color: var(--green-mid);
+    }
+    .btn-outline:hover { background: var(--green-light); transform: translateY(-2px); }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: #fff;
+      border-color: #25D366;
+      box-shadow: 0 6px 18px rgba(37,211,102,0.3);
+    }
+    .btn-whatsapp:hover { background: #1dbd5a; transform: translateY(-2px); }
+
+    .btn-soft {
+      background: var(--green-light);
+      color: var(--green-dark);
+      border-color: var(--green-light);
+    }
+    .btn-soft:hover { background: var(--green-soft); color: #fff; }
+
+    /* ── Card ── */
+    .card {
+      background: var(--warm-white);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-md);
+      padding: 1.5rem;
+    }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.2rem 0.65rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.72rem;
+      font-weight: 600;
+      font-family: var(--font-body);
+      letter-spacing: 0.03em;
+    }
+    .badge-green { background: var(--green-light); color: var(--green-dark); }
+    .badge-gold  { background: #fef3d6; color: #a0670a; }
+
+    /* ══════════════════════════════════════
+       NAVBAR
+    ══════════════════════════════════════ */
+    .navbar-wrapper {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(253,254,254,0.96);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-soft);
+      box-shadow: 0 2px 16px rgba(45,106,79,0.07);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.55rem 0;
+      flex-wrap: wrap;
+    }
+
+    .brand { display: flex; align-items: center; gap: 0.75rem; }
+
+    .logo-circle {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--green-dark), var(--green-soft));
+      color: #fff;
+      font-family: var(--font-heading);
+      font-weight: 900;
+      font-size: 0.72rem;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 14px rgba(45,106,79,0.4);
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .logo-circle img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    .brand-text strong {
+      display: block;
+      font-family: var(--font-heading);
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      line-height: 1.2;
+    }
+
+    .brand-text span {
+      font-family: var(--font-body);
+      font-size: 0.71rem;
+      color: var(--text-muted);
+    }
+
+    .nav-links { display: flex; align-items: center; gap: 0.25rem; flex-wrap: wrap; }
+
+    .nav-links a {
+      padding: 0.38rem 0.75rem;
+      border-radius: var(--radius-pill);
+      color: var(--text-muted);
+      font-family: var(--font-body);
+      font-size: 0.84rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      transition: all var(--transition);
+    }
+
+    .nav-links a:hover { background: var(--green-xlight); color: var(--green-dark); }
+    .nav-links a.active-link { background: var(--green-light); color: var(--green-dark); }
+
+    .nav-actions { display: flex; align-items: center; gap: 0.5rem; }
+
+    .nav-search { position: relative; max-width: 200px; width: 100%; }
+
+    .nav-search input {
+      width: 100%;
+      padding: 0.38rem 0.65rem 0.38rem 1.9rem;
+      border-radius: var(--radius-pill);
+      border: 1.5px solid var(--border-soft);
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      outline: none;
+      background: var(--green-xlight);
+      color: var(--text-dark);
+      transition: border-color var(--transition);
+    }
+
+    .nav-search input:focus { border-color: var(--green-mid); }
+    .nav-search-icon { position: absolute; left: 0.65rem; top: 50%; transform: translateY(-50%); font-size: 0.8rem; }
+
+    .lang-select {
+      border-radius: var(--radius-pill);
+      border: 1.5px solid var(--border-soft);
+      padding: 0.35rem 0.75rem;
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      background: var(--green-xlight);
+      color: var(--text-dark);
+      outline: none;
+      cursor: pointer;
+    }
+
+    .nav-toggle {
+      display: none;
+      background: var(--green-xlight);
+      border: 1.5px solid var(--border-soft);
+      border-radius: var(--radius-pill);
+      width: 36px; height: 36px;
+      font-size: 1rem;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--green-dark);
+    }
+
+    @media (max-width: 960px) {
+      .nav-toggle { display: inline-flex; }
+      .nav-links { width: 100%; order: 3; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.2rem; }
+      .nav-actions { order: 2; }
+    }
+
+    @media (max-width: 600px) {
+      .nav-inner { flex-direction: column; align-items: stretch; }
+      .nav-actions { justify-content: space-between; }
+      .nav-search { max-width: none; }
+    }
+
+    /* ══════════════════════════════════════
+       SECTION HEADER
+    ══════════════════════════════════════ */
+    .section-header { margin-bottom: 2.2rem; }
+
+    .section-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--green-mid);
+      margin-bottom: 0.55rem;
+    }
+
+    .section-eyebrow::before {
+      content: "";
+      display: inline-block;
+      width: 18px; height: 2px;
+      background: var(--green-soft);
+      border-radius: 2px;
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      margin-bottom: 0.5rem;
+    }
+
+    .section-subtitle {
+      font-family: var(--font-body);
+      color: var(--text-muted);
+      font-size: 0.94rem;
+      font-weight: 400;
+      max-width: 560px;
+      line-height: 1.7;
+    }
+
+    /* ══════════════════════════════════════
+       HERO
+    ══════════════════════════════════════ */
+    .hero {
+      padding: 4.5rem 0 4rem;
+      background:
+        radial-gradient(ellipse at 70% 0%, rgba(116,198,157,0.18) 0%, transparent 55%),
+        radial-gradient(ellipse at 0% 100%, rgba(212,165,74,0.1) 0%, transparent 45%),
+        var(--warm-cream);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle at 30px 40px, rgba(45,106,79,0.04) 1px, transparent 1px),
+        radial-gradient(circle at 90px 100px, rgba(45,106,79,0.03) 1px, transparent 1px);
+      background-size: 120px 120px, 80px 80px;
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) { .hero-inner { grid-template-columns: 1fr; gap: 2rem; } }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: var(--green-light);
+      color: var(--green-dark);
+      border: 1px solid rgba(45,106,79,0.2);
+      border-radius: var(--radius-pill);
+      padding: 0.3rem 0.9rem;
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-weight: 900;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.01em;
+    }
+
+    .hero h1 span { color: var(--green-mid); font-style: italic; }
+
+    .hero-lead {
+      font-family: var(--font-body);
+      color: var(--text-muted);
+      font-size: 1rem;
+      font-weight: 400;
+      max-width: 28rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.8;
+    }
+
+    .hero-buttons { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.8rem; }
+
+    .hero-stats { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+
+    .hero-stat { display: flex; flex-direction: column; }
+
+    .hero-stat strong {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--green-dark);
+      line-height: 1;
+    }
+
+    .hero-stat span {
+      font-family: var(--font-body);
+      font-size: 0.73rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-top: 0.15rem;
+    }
+
+    .hero-visual-wrap { position: relative; }
+
+    .hero-card-main {
+      background: var(--warm-white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-lg);
+      padding: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card-main::after {
+      content: "";
+      position: absolute;
+      top: -40px; right: -40px;
+      width: 160px; height: 160px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(116,198,157,0.2), transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero-card-top .label {
+      font-family: var(--font-heading);
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+
+    .dot-online {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #2d9a4a;
+    }
+
+    .dot-online::before {
+      content: "";
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: #2d9a4a;
+      box-shadow: 0 0 0 3px rgba(45,154,74,0.2);
+      animation: blink 1.8s infinite;
+    }
+
+    @keyframes blink {
+      0%,100%{opacity:1} 50%{opacity:0.4}
+    }
+
+    .hero-services-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-service-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--green-xlight);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-sm);
+      padding: 0.55rem 0.65rem;
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+
+    .hero-service-item .price {
+      margin-left: auto;
+      font-family: var(--font-heading);
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--green-mid);
+    }
+
+    .hero-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border-soft);
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .hero-card-footer strong { font-family: var(--font-heading); color: var(--green-dark); font-size: 0.8rem; }
+
+    .hero-float-chip {
+      position: absolute;
+      bottom: -14px; left: -14px;
+      background: var(--warm-white);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-sm);
+      padding: 0.5rem 0.75rem;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+
+    .hero-float-chip2 {
+      position: absolute;
+      top: -12px; right: -12px;
+      background: var(--green-dark);
+      border-radius: var(--radius-sm);
+      padding: 0.5rem 0.75rem;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    /* ══════════════════════════════════════
+       TRUST STRIP
+    ══════════════════════════════════════ */
+    .trust-strip { background: var(--green-dark); padding: 1.1rem 0; }
+
+    .trust-strip-inner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 2.5rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: rgba(255,255,255,0.9);
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    /* ══════════════════════════════════════
+       DOCTORS
+    ══════════════════════════════════════ */
+    .doctors-section { background: var(--warm-white); }
+
+    .doctor-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .doctor-card {
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-soft);
+      background: var(--warm-white);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow var(--transition), transform var(--transition);
+    }
+
+    .doctor-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
+
+    .doctor-card-top {
+      background: linear-gradient(135deg, var(--green-xlight), var(--warm-cream));
+      padding: 1.4rem 1.4rem 0;
+      display: flex;
+      gap: 0.9rem;
+      align-items: flex-start;
+    }
+
+    .doctor-avatar {
+      width: 68px; height: 68px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--green-light), var(--green-soft));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      flex-shrink: 0;
+      border: 3px solid var(--warm-white);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+
+    .doctor-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    .doctor-meta { flex: 1; min-width: 0; }
+
+    .doctor-name {
+      font-family: var(--font-heading);
+      font-size: 0.97rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 0.2rem;
+      line-height: 1.3;
+    }
+
+    .doctor-qual {
+      font-family: var(--font-body);
+      font-size: 0.74rem;
+      font-weight: 400;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+      line-height: 1.4;
+    }
+
+    .doctor-speciality {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      background: var(--green-light);
+      color: var(--green-dark);
+      border-radius: var(--radius-pill);
+      padding: 0.15rem 0.55rem;
+      font-family: var(--font-body);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .doctor-card-body {
+      padding: 1rem 1.4rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .doctor-services { list-style: none; display: flex; flex-direction: column; gap: 0.22rem; }
+
+    .doctor-services li {
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: var(--text-body);
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .doctor-services li::before { content: "✦"; font-size: 0.5rem; color: var(--green-soft); flex-shrink: 0; }
+
+    .doctor-schedule {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--green-xlight);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-sm);
+      padding: 0.4rem 0.65rem;
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--green-dark);
+      margin-top: auto;
+      letter-spacing: 0.01em;
+    }
+
+    .doctor-card-footer {
+      padding: 0.75rem 1.4rem 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      border-top: 1px solid var(--green-xlight);
+    }
+
+    /* ══════════════════════════════════════
+       TESTS & PRICES
+    ══════════════════════════════════════ */
+    .tests-section { background: var(--warm-cream); }
+
+    .tests-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .test-search-wrap { position: relative; max-width: 280px; width: 100%; }
+
+    .test-search-wrap input {
+      width: 100%;
+      padding: 0.45rem 0.75rem 0.45rem 2rem;
+      border-radius: var(--radius-pill);
+      border: 1.5px solid var(--border-soft);
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      outline: none;
+      background: var(--warm-white);
+      color: var(--text-dark);
+    }
+
+    .test-search-wrap input:focus { border-color: var(--green-mid); }
+    .test-search-wrap .search-icon { position: absolute; left: 0.7rem; top: 50%; transform: translateY(-50%); font-size: 0.85rem; }
+
+    .tests-table-wrap { overflow-x: auto; border-radius: var(--radius-md); box-shadow: var(--shadow-md); }
+
+    table { width: 100%; border-collapse: collapse; background: var(--warm-white); font-family: var(--font-body); font-size: 0.85rem; border-radius: var(--radius-md); overflow: hidden; }
+
+    thead { background: var(--green-dark); }
+
+    thead th {
+      padding: 0.8rem 1rem;
+      color: rgba(255,255,255,0.9);
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 0.74rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    tbody td {
+      padding: 0.65rem 1rem;
+      border-bottom: 1px solid var(--green-xlight);
+      white-space: nowrap;
+      font-family: var(--font-body);
+      color: var(--text-body);
+      font-weight: 400;
+    }
+
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:nth-child(even) { background: var(--green-xlight); }
+    tbody tr:hover { background: var(--green-light); }
+
+    .price-cell {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--green-dark);
+    }
+
+    .cat-badge {
+      display: inline-flex;
+      padding: 0.12rem 0.55rem;
+      border-radius: var(--radius-pill);
+      font-family: var(--font-body);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      background: var(--green-light);
+      color: var(--green-dark);
+    }
+
+    /* ══════════════════════════════════════
+       FORMS
+    ══════════════════════════════════════ */
+    .forms-section { background: var(--warm-white); }
+
+    .dual-form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 860px) { .dual-form-grid { grid-template-columns: 1fr; } }
+
+    .form-card-title {
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 1.1rem;
+      color: var(--text-dark);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.9rem 1.1rem;
+    }
+
+    .form-group { display: flex; flex-direction: column; gap: 0.3rem; }
+
+    .form-group label {
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      letter-spacing: 0.02em;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      border-radius: var(--radius-sm);
+      border: 1.5px solid var(--border-soft);
+      padding: 0.5rem 0.75rem;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 400;
+      outline: none;
+      background: var(--green-xlight);
+      color: var(--text-dark);
+      transition: border-color var(--transition), background var(--transition);
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--green-mid);
+      background: var(--warm-white);
+      box-shadow: 0 0 0 2px rgba(64,145,108,0.15);
+    }
+
+    .form-help { font-family: var(--font-body); font-size: 0.72rem; color: var(--text-muted); }
+
+    .form-footer {
+      margin-top: 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-soft);
+    }
+
+    .price-display {
+      font-family: var(--font-heading);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--green-dark);
+    }
+
+    /* ══════════════════════════════════════
+       WHATSAPP
+    ══════════════════════════════════════ */
+    .wa-section { background: var(--warm-cream); }
+
+    .wa-card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    @media (max-width: 800px) { .wa-card { grid-template-columns: 1fr; } }
+
+    .wa-left h3 {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .wa-left p { font-family: var(--font-body); color: var(--text-muted); font-size: 0.9rem; }
+
+    .wa-perks { list-style: none; margin-top: 0.75rem; display: flex; flex-direction: column; gap: 0.35rem; }
+
+    .wa-perks li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-body);
+    }
+
+    .wa-perks li .icon { color: var(--green-mid); }
+
+    /* ══════════════════════════════════════
+       CONTACT
+    ══════════════════════════════════════ */
+    .contact-section { background: var(--warm-white); }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
+
+    .contact-info-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.75rem; }
+
+    .contact-info-list li {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-start;
+      font-family: var(--font-body);
+      font-size: 0.87rem;
+      color: var(--text-body);
+    }
+
+    .contact-icon-wrap {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      background: var(--green-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+
+    .map-card {
+      border-radius: var(--radius-md);
+      border: 1.5px dashed var(--border-soft);
+      background: repeating-linear-gradient(-45deg, var(--green-xlight), var(--green-xlight) 8px, var(--warm-white) 8px, var(--warm-white) 16px);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    /* ══════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════ */
+    footer {
+      background: var(--green-dark);
+      color: rgba(255,255,255,0.85);
+      padding: 2.5rem 0 1.25rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 760px) { .footer-grid { grid-template-columns: 1fr; gap: 1.25rem; } }
+
+    .footer-col h4 {
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-col ul { list-style: none; }
+
+    .footer-col li {
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.65);
+      margin-bottom: 0.3rem;
+    }
+
+    .footer-col li a { color: rgba(255,255,255,0.65); transition: color var(--transition); }
+    .footer-col li a:hover { color: var(--green-soft); }
+
+    .footer-brand-desc { font-family: var(--font-body); font-size: 0.82rem; color: rgba(255,255,255,0.6); margin-top: 0.4rem; line-height: 1.7; }
+
+    .footer-social { display: flex; gap: 0.5rem; margin-top: 0.75rem; flex-wrap: wrap; }
+
+    .footer-social a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius-pill);
+      padding: 0.25rem 0.6rem;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.75);
+      transition: all var(--transition);
+    }
+
+    .footer-social a:hover { background: var(--green-mid); color: #fff; border-color: var(--green-mid); }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 1rem;
+      text-align: center;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* ══════════════════════════════════════
+       CHATBOT
+    ══════════════════════════════════════ */
+    .chatbot-fab {
+      position: fixed;
+      bottom: 1.25rem; right: 1.25rem;
+      width: 54px; height: 54px;
+      border-radius: 50%;
+      background: var(--green-mid);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      border: none;
+      box-shadow: 0 10px 28px rgba(45,106,79,0.5);
+      cursor: pointer;
+      z-index: 1100;
+      transition: background var(--transition), transform var(--transition);
+    }
+
+    .chatbot-fab:hover { background: var(--green-dark); transform: scale(1.07); }
+
+    .chatbot-fab .fab-badge {
+      position: absolute;
+      top: -3px; right: -3px;
+      background: var(--accent-gold);
+      color: #fff;
+      border-radius: var(--radius-pill);
+      font-family: var(--font-body);
+      font-size: 0.52rem;
+      padding: 0.06rem 0.3rem;
+      font-weight: 700;
+    }
+
+    .chatbot-win {
+      position: fixed;
+      bottom: 4.5rem; right: 1.25rem;
+      width: 330px;
+      max-width: calc(100vw - 2rem);
+      background: var(--warm-white);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 20px 60px rgba(45,106,79,0.35);
+      border: 1px solid var(--border-soft);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 1099;
+    }
+
+    .chatbot-win.open { display: flex; }
+
+    .chatbot-head {
+      background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+      padding: 0.85rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #fff;
+    }
+
+    .chatbot-head h4 {
+      font-family: var(--font-heading);
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.1rem;
+    }
+
+    .chatbot-head span {
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      opacity: 0.75;
+    }
+
+    .chatbot-head button { background: none; border: none; color: rgba(255,255,255,0.8); cursor: pointer; font-size: 1.1rem; line-height: 1; }
+
+    .chatbot-msgs {
+      padding: 0.85rem;
+      max-height: 270px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      background: var(--green-xlight);
+    }
+
+    .chat-msg { display: flex; }
+    .chat-msg.user { justify-content: flex-end; }
+
+    .chat-bubble {
+      padding: 0.45rem 0.7rem;
+      border-radius: 1rem;
+      max-width: 82%;
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      line-height: 1.55;
+      word-wrap: break-word;
+    }
+
+    .chat-msg.bot .chat-bubble { background: var(--warm-white); color: var(--text-dark); border: 1px solid var(--border-soft); border-bottom-left-radius: 0.25rem; }
+    .chat-msg.user .chat-bubble { background: var(--green-mid); color: #fff; border-bottom-right-radius: 0.25rem; }
+
+    .chatbot-form {
+      padding: 0.55rem 0.7rem;
+      background: var(--warm-white);
+      border-top: 1px solid var(--border-soft);
+      display: flex;
+      gap: 0.4rem;
+    }
+
+    .chatbot-form input {
+      flex: 1;
+      border-radius: var(--radius-pill);
+      border: 1.5px solid var(--border-soft);
+      padding: 0.4rem 0.65rem;
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      outline: none;
+      background: var(--green-xlight);
+    }
+
+    .chatbot-form input:focus { border-color: var(--green-mid); }
+
+    .chatbot-form button {
+      border-radius: var(--radius-pill);
+      border: none;
+      padding: 0.4rem 0.85rem;
+      background: var(--green-mid);
+      color: #fff;
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* ══════════════════════════════════════
+       REVEAL
+    ══════════════════════════════════════ */
+    .reveal       { opacity:0; transform:translateY(20px);  transition:opacity .55s ease, transform .55s ease; }
+    .reveal-left  { opacity:0; transform:translateX(-20px); transition:opacity .55s ease, transform .55s ease; }
+    .reveal-right { opacity:0; transform:translateX(20px);  transition:opacity .55s ease, transform .55s ease; }
+    .reveal.visible, .reveal-left.visible, .reveal-right.visible { opacity:1; transform:none; }
+
+    /* util */
+    .text-muted { color: var(--text-muted); }
+    .text-dark  { color: var(--text-dark); }
+  </style>
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="navbar-wrapper">
+  <div class="container nav-inner">
+    <div class="brand">
+      <div class="logo-circle">
+  <img src="kdc-logo.jpg" alt="KDC Logo">
+</div>
+      <div class="brand-text">
+        <strong>Katigorah Diagnostic Centre</strong>
+        <span>Siddeshwar Part-II, Cachar, Assam</span>
+      </div>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home"        data-i18n="navHome"        class="active-link">Home</a>
+      <a href="#doctors"     data-i18n="navDoctors">Doctors</a>
+      <a href="#tests"       data-i18n="navTests">Tests &amp; Prices</a>
+      <a href="#booking"     data-i18n="navUltrasound">Ultrasound</a>
+      <a href="#appointment" data-i18n="navAppointment">Appointment</a>
+      <a href="#contact"     data-i18n="navContact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="nav-search">
+        <span class="nav-search-icon">🔍</span>
+        <input type="search" id="globalSearch" placeholder="Search tests &amp; doctors…">
+      </div>
+      <select class="lang-select" id="langSelect" aria-label="Language">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="as">অসমীয়া</option>
+        <option value="bn">বাংলা</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ══ HERO ══ -->
+<section id="home" class="hero">
+  <div class="container hero-inner">
+    <div class="reveal-left">
+      <div class="hero-pill">🌿 <span data-i18n="heroTagline">USG starting ₹1300 &nbsp;•&nbsp; ECG Available</span></div>
+      <h1 data-i18n="heroHeading">Accurate Diagnosis.<br><span>Trusted Care.</span></h1>
+      <p class="hero-lead" data-i18n="heroSubtext">
+        Comprehensive pathology, ultrasound and ECG services with experienced visiting specialists — all under one roof at Katigorah.
+      </p>
+      <div class="hero-buttons">
+        <a href="#booking"     class="btn btn-primary"   data-i18n="btnUSG">🩻 Book Ultrasound</a>
+        <a href="#appointment" class="btn btn-outline"   data-i18n="btnDoc">📅 Book Doctor</a>
+        <a href="#wa-report"   class="btn btn-whatsapp"  data-i18n="btnWA">💬 Get Report on WhatsApp</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>4+</strong><span>Visiting Specialists</span></div>
+        <div class="hero-stat"><strong>30+</strong><span>Tests Available</span></div>
+        <div class="hero-stat"><strong>7 AM</strong><span>Early Opening</span></div>
+        <div class="hero-stat"><strong>WhatsApp</strong><span>Report Delivery</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual-wrap reveal-right">
+      <div class="hero-float-chip2">🏥 KDC Katigorah</div>
+      <div class="hero-card-main">
+        <div class="hero-card-top">
+          <span class="label">Services at a Glance</span>
+          <span class="dot-online">Open Now</span>
+        </div>
+        <div class="hero-services-grid">
+          <div class="hero-service-item"><span>🩸</span><span>Blood Tests</span><span class="price">₹300+</span></div>
+          <div class="hero-service-item"><span>🩻</span><span>Ultrasound</span><span class="price">₹1300+</span></div>
+          <div class="hero-service-item"><span>💓</span><span>ECG</span><span class="price">₹400</span></div>
+          <div class="hero-service-item"><span>👨‍⚕️</span><span>Specialists</span><span class="price">4 Docs</span></div>
+        </div>
+        <div class="hero-card-footer">
+          <span>📍 Siddeshwar Part‑II, Cachar</span>
+          <strong>Open 7 AM–7 PM</strong>
+        </div>
+      </div>
+      <div class="hero-float-chip">📲 Reports on WhatsApp</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TRUST STRIP ══ -->
+<div class="trust-strip">
+  <div class="container trust-strip-inner">
+    <div class="trust-item"><span>✅</span> Automated Pathology Lab</div>
+    <div class="trust-item"><span>🩻</span> Digital Ultrasound</div>
+    <div class="trust-item"><span>💓</span> ECG Available</div>
+    <div class="trust-item"><span>👩‍⚕️</span> 4 Visiting Specialists</div>
+    <div class="trust-item"><span>💬</span> Reports via WhatsApp</div>
+    <div class="trust-item"><span>📞</span> 8472898483 / 7002842800</div>
+  </div>
+</div>
+
+<!-- ══ DOCTORS ══ -->
+<section id="doctors" class="doctors-section">
+  <div class="container reveal">
+    <div class="section-header">
+      <div class="section-eyebrow">Our Specialists</div>
+      <h2 class="section-title" data-i18n="doctorsHeading">Visiting Doctors</h2>
+      <p class="section-subtitle" data-i18n="doctorsSubtitle">Experienced specialists visit Katigorah Diagnostic Centre on scheduled days. Prior appointment is recommended.</p>
+    </div>
+    <div class="doctor-grid">
+
+      <article class="doctor-card">
+        <div class="doctor-card-top">
+          <div class="doctor-avatar"><img src="dr.taiyeebur.jpg" alt="Dr. Taiyeebur Rahman Mazumder"></div>
+          <div class="doctor-meta">
+            <h3 class="doctor-name">Dr. Taiyeebur Rahman Mazumder</h3>
+            <p class="doctor-qual">MBBS (Hons), MD (General Medicine), NEIGRIHMS</p>
+            <span class="doctor-speciality">⚕️ Internal Medicine</span>
+          </div>
+        </div>
+        <div class="doctor-card-body">
+          <ul class="doctor-services">
+            <li>Diabetes &amp; Hypertension</li>
+            <li>Liver &amp; Kidney Diseases</li>
+            <li>Neurological &amp; Rheumatological Disorders</li>
+            <li>Thyroid &amp; Fever Profile Evaluation</li>
+            <li>Infectious Diseases</li>
+          </ul>
+          <div class="doctor-schedule">🗓️ Every Thursday &nbsp;|&nbsp; 3:00 PM onwards</div>
+        </div>
+        <div class="doctor-card-footer">
+          <button class="btn btn-primary btn-sm doctor-book-btn" data-doctor="Dr. Taiyeebur Rahman Mazumder">Book Appointment</button>
+          <a class="btn btn-outline btn-sm" href="tel:8472898483">📞 Call for Appointment</a>
+        </div>
+      </article>
+
+      <article class="doctor-card">
+        <div class="doctor-card-top">
+          <div class="doctor-avatar"><img src="dr.piyalee.jpg" alt="Dr. Piyalee Nath"></div>
+          <div class="doctor-meta">
+            <h3 class="doctor-name">Dr. Piyalee Nath</h3>
+            <p class="doctor-qual">MS (Obstetrics &amp; Gynaecology), SMCH</p>
+            <span class="doctor-speciality">🌸 Obstetrician &amp; Gynaecologist</span>
+          </div>
+        </div>
+        <div class="doctor-card-body">
+          <ul class="doctor-services">
+            <li>Pregnancy &amp; Antenatal Care</li>
+            <li>Normal &amp; High‑Risk Pregnancy</li>
+            <li>Infertility Evaluation &amp; Treatment</li>
+            <li>Menstrual Disorders</li>
+            <li>General Gynaecological Consultation</li>
+          </ul>
+          <div class="doctor-schedule">🗓️ Every Sunday &nbsp;|&nbsp; KDC Chamber</div>
+        </div>
+        <div class="doctor-card-footer">
+          <button class="btn btn-primary btn-sm doctor-book-btn" data-doctor="Dr. Piyalee Nath">Book Appointment</button>
+          <a class="btn btn-outline btn-sm" href="tel:8472898483">📞 Call for Appointment</a>
+        </div>
+      </article>
+
+      <article class="doctor-card">
+        <div class="doctor-card-top">
+          <div class="doctor-avatar"><img src="dr.aminul.jpg" alt="Dr. Aminul Akthar Laskar"></div>
+          <div class="doctor-meta">
+            <h3 class="doctor-name">Dr. Aminul Akthar Laskar</h3>
+            <p class="doctor-qual">MD (Pediatrics), SMCH</p>
+            <span class="doctor-speciality">👶 Child Specialist</span>
+          </div>
+        </div>
+        <div class="doctor-card-body">
+          <ul class="doctor-services">
+            <li>Newborn &amp; Infant Care</li>
+            <li>Vaccination &amp; Growth Monitoring</li>
+            <li>Common Childhood Illnesses</li>
+            <li>Pediatric Emergency Consultation</li>
+          </ul>
+          <div class="doctor-schedule">🗓️ Mon, Wed &amp; Fri &nbsp;|&nbsp; All Slots</div>
+        </div>
+        <div class="doctor-card-footer">
+          <button class="btn btn-primary btn-sm doctor-book-btn" data-doctor="Dr. Aminul Akthar Laskar">Book Appointment</button>
+          <a class="btn btn-outline btn-sm" href="tel:8472898483">📞 Call for Appointment</a>
+        </div>
+      </article>
+
+      <article class="doctor-card">
+        <div class="doctor-card-top">
+        <div class="doctor-avatar"><img src="dr.forida.jpg" alt="Dr. Farida Begom"></div>
+          <div class="doctor-meta">
+            <h3 class="doctor-name">Dr. Forida Begum</h3>
+            <p class="doctor-qual">Medical Officer, Katigorah Model Hospital</p>
+            <span class="doctor-speciality">🏥 General Medicine</span>
+          </div>
+        </div>
+        <div class="doctor-card-body">
+          <ul class="doctor-services">
+            <li>General OPD Consultation</li>
+            <li>Follow‑up &amp; Chronic Disease Care</li>
+            <li>Minor Procedures &amp; Dressings</li>
+          </ul>
+          <div class="doctor-schedule">🗓️ Available Everyday</div>
+        </div>
+        <div class="doctor-card-footer">
+          <button class="btn btn-primary btn-sm doctor-book-btn" data-doctor="Dr. Forida Begum">Book Appointment</button>
+          <a class="btn btn-outline btn-sm" href="tel:8472898483">📞 Call for Appointment</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ TESTS ══ -->
+<section id="tests" class="tests-section">
+  <div class="container reveal">
+    <div class="section-header">
+      <div class="section-eyebrow">Transparent Pricing</div>
+      <h2 class="section-title" data-i18n="testsHeading">Tests &amp; Prices</h2>
+      <p class="section-subtitle" data-i18n="testsSubtitle">Search for any test, see the price and book instantly. Sample collection: 7 AM – 7 PM daily.</p>
+    </div>
+    <div class="tests-toolbar">
+      <div class="badge badge-green">🩸 Sample Collection Open Now</div>
+      <div class="test-search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="search" id="testSearch" placeholder="Search any test…">
+      </div>
+    </div>
+    <div class="tests-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Test Name</th><th>Category</th><th>Price</th><th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="testsBody">
+          <tr><td>CBC + ESR</td><td><span class="cat-badge">Hematology</span></td><td class="price-cell">₹500</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="CBC + ESR">Book Now</button></td></tr>
+          <tr><td>Lipid Profile</td><td><span class="cat-badge">Biochemistry</span></td><td class="price-cell">₹800</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="Lipid Profile">Book Now</button></td></tr>
+          <tr><td>LFT + GGT</td><td><span class="cat-badge">Biochemistry</span></td><td class="price-cell">₹850</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="LFT + GGT">Book Now</button></td></tr>
+          <tr><td>TSH</td><td><span class="cat-badge">Hormone</span></td><td class="price-cell">₹300</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="TSH">Book Now</button></td></tr>
+          <tr><td>Dengue (NS1 / IgG / IgM)</td><td><span class="cat-badge">Serology</span></td><td class="price-cell">₹1050</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="Dengue">Book Now</button></td></tr>
+          <tr><td>HbA1C</td><td><span class="cat-badge">Diabetes</span></td><td class="price-cell">₹600</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="HbA1C">Book Now</button></td></tr>
+          <tr><td>Electrolyte Panel</td><td><span class="cat-badge">Biochemistry</span></td><td class="price-cell">₹800</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="Electrolyte Panel">Book Now</button></td></tr>
+          <tr><td>TORCH Panel</td><td><span class="cat-badge">Infection</span></td><td class="price-cell">₹3000</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="TORCH Panel">Book Now</button></td></tr>
+          <tr><td>USG (Ultrasound) – starting</td><td><span class="cat-badge">Radiology</span></td><td class="price-cell">₹1300</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="USG Ultrasound">Book Now</button></td></tr>
+          <tr><td>ECG</td><td><span class="cat-badge">Cardiology</span></td><td class="price-cell">₹400</td><td><button class="btn btn-soft btn-sm test-book-btn" data-test="ECG">Book Now</button></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ══ BOOKING FORMS ══ -->
+<section id="booking" class="forms-section">
+  <div class="container reveal">
+    <div class="section-header">
+      <div class="section-eyebrow">Book Online</div>
+      <h2 class="section-title">Ultrasound &amp; Doctor Booking</h2>
+      <p class="section-subtitle">Fill in your details below. Our team will confirm within a few hours.</p>
+    </div>
+    <div class="dual-form-grid">
+
+      <div class="card">
+        <div class="form-card-title">🩻 Ultrasound Booking</div>
+        <form id="usgForm">
+          <div class="form-grid">
+            <div class="form-group"><label for="usgName">Patient Name</label><input type="text" id="usgName" required placeholder="Full name"></div>
+            <div class="form-group"><label for="usgAge">Age</label><input type="number" id="usgAge" min="0" max="120" required placeholder="Years"></div>
+            <div class="form-group"><label for="usgGender">Gender</label><select id="usgGender" required><option value="">Select</option><option>Male</option><option>Female</option><option>Other</option></select></div>
+            <div class="form-group"><label for="usgMobile">Mobile Number</label><input type="tel" id="usgMobile" required placeholder="10-digit number"></div>
+            <div class="form-group" style="grid-column:1/-1">
+              <label for="usgType">Ultrasound Type</label>
+              <select id="usgType" required>
+                <option value="">Select type</option>
+                <option value="Abdominal" data-price="1300">Abdominal Ultrasound – ₹1300</option>
+                <option value="Obstetric" data-price="1500">Obstetric Ultrasound – ₹1500</option>
+                <option value="Pelvic" data-price="1400">Pelvic Ultrasound – ₹1400</option>
+                <option value="Whole Abdomen + Pelvis" data-price="1800">Whole Abdomen + Pelvis – ₹1800</option>
+              </select>
+              <div class="form-help">Price shown includes sonologist fee</div>
+            </div>
+            <div class="form-group"><label for="usgDate">Preferred Date</label><input type="date" id="usgDate" required></div>
+            <div class="form-group"><label for="usgTime">Preferred Time</label><input type="time" id="usgTime" required></div>
+            <div class="form-group" style="grid-column:1/-1"><label for="usgFile">Upload Prescription (optional)</label><input type="file" id="usgFile" accept=".jpg,.jpeg,.png,.pdf"><div class="form-help">Helps verify the investigation in advance</div></div>
+          </div>
+          <div class="form-footer">
+            <div class="price-display">Total: <span id="usgPrice">₹0</span></div>
+            <button type="submit" class="btn btn-primary">Submit Booking</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="appointment" class="card">
+        <div class="form-card-title">📅 Doctor Appointment</div>
+        <form id="apptForm">
+          <div class="form-grid">
+            <div class="form-group"><label for="apptName">Patient Name</label><input type="text" id="apptName" required placeholder="Full name"></div>
+            <div class="form-group"><label for="apptAge">Age</label><input type="number" id="apptAge" min="0" max="120" required placeholder="Years"></div>
+            <div class="form-group"><label for="apptPhone">Phone</label><input type="tel" id="apptPhone" required placeholder="10-digit number"></div>
+            <div class="form-group"><label for="apptDoctor">Select Doctor</label>
+              <select id="apptDoctor" required>
+                <option value="">Choose doctor</option>
+                <option value="Dr. Taiyeebur Rahman Mazumder">Dr. Taiyeebur – Every Thursday</option>
+                <option value="Dr. Piyalee Nath">Dr. Piyalee Nath – Every Sunday</option>
+                <option value="Dr. Aminul Akthar Laskar">Dr. Aminul Laskar – Mon/Wed/Fri</option>
+                <option value="Dr. Forida Begum">Dr. Forida Begum – Everyday</option>
+              </select>
+            </div>
+            <div class="form-group"><label for="apptDate">Preferred Date</label><input type="date" id="apptDate" required></div>
+            <div class="form-group"><label for="apptTime">Preferred Time</label><input type="time" id="apptTime" required></div>
+          </div>
+          <div class="form-footer">
+            <p class="text-muted" style="font-size:0.78rem; font-family:var(--font-body);">ℹ️ Our staff will call to confirm availability.</p>
+            <button type="submit" class="btn btn-primary">Submit Request</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ WHATSAPP REPORT ══ -->
+<section id="wa-report" class="wa-section">
+  <div class="container reveal">
+    <div class="section-header">
+      <div class="section-eyebrow">Digital Reports</div>
+      <h2 class="section-title" data-i18n="waHeading">Get Report on WhatsApp</h2>
+      <p class="section-subtitle" data-i18n="waSubtitle">No more waiting at the counter. Receive your lab report directly on your WhatsApp.</p>
+    </div>
+    <div class="card wa-card">
+      <div class="wa-left">
+        <h3>Fast. Simple. Paperless. 💬</h3>
+        <p>Enter your Patient ID and registered mobile number. We'll send your report securely on WhatsApp.</p>
+        <ul class="wa-perks">
+          <li><span class="icon">✅</span> Same‑day reports for many tests</li>
+          <li><span class="icon">🔐</span> Secured with your registered mobile</li>
+          <li><span class="icon">📁</span> Easy to share with your doctor</li>
+          <li><span class="icon">📞</span> Urgent: call 8472898483</li>
+        </ul>
+      </div>
+      <div>
+        <form id="waForm">
+          <div class="form-grid">
+            <div class="form-group"><label for="waId">Patient ID</label><input type="text" id="waId" required placeholder="e.g. KDC-12345"></div>
+            <div class="form-group"><label for="waMobile">Registered Mobile</label><input type="tel" id="waMobile" required placeholder="10-digit number"></div>
+          </div>
+          <div class="form-footer">
+            <p class="text-muted" style="font-size:0.78rem; font-family:var(--font-body);">You will be redirected to WhatsApp chat.</p>
+            <button type="button" class="btn btn-whatsapp" id="waBtn">💬 Open WhatsApp</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact" class="contact-section">
+  <div class="container reveal">
+    <div class="section-header">
+      <div class="section-eyebrow">Find Us</div>
+      <h2 class="section-title" data-i18n="contactHeading">Contact &amp; Location</h2>
+      <p class="section-subtitle" data-i18n="contactSubtitle">Walk in or call for tests, ultrasound, ECG or doctor appointments.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="card">
+        <h3 style="margin-bottom:0.5rem;">Katigorah Diagnostic Centre</h3>
+        <ul class="contact-info-list">
+          <li><div class="contact-icon-wrap">📍</div><div>Siddeshwar Part‑II, Katigorah,<br>Cachar, Assam – 788805</div></li>
+          <li><div class="contact-icon-wrap">📞</div><div><a href="tel:8472898483" style="font-weight:700;color:var(--green-dark);">8472898483</a><br><a href="tel:7002842800" style="font-weight:700;color:var(--green-dark);">7002842800</a></div></li>
+          <li><div class="contact-icon-wrap">⏰</div><div><strong>Lab:</strong> 7:00 AM – 7:00 PM (All days)<br><strong>Ultrasound / ECG:</strong> As per schedule</div></li>
+          <li><div class="contact-icon-wrap">🚑</div><div>Near Katigorah Market, Siddeshwar Part‑II</div></li>
+        </ul>
+        <div style="margin-top:1rem;display:flex;gap:0.5rem;flex-wrap:wrap;">
+          <a href="tel:8472898483" class="btn btn-primary btn-sm">📞 Call Now</a>
+          <a href="https://wa.me/918472898483" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="map-card">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
+          <span style="font-family:var(--font-heading);font-weight:700;color:var(--text-dark);font-size:0.9rem;">🗺️ Google Maps</span>
+          <span class="badge badge-green">Directions</span>
+        </div>
+        <p class="text-muted" style="font-family:var(--font-body);font-size:0.82rem;">Tap below to open Google Maps for turn‑by‑turn directions to our centre.</p>
+        <a class="btn btn-primary btn-sm" style="align-self:flex-start;" href="https://www.google.com/maps/search/?api=1&query=Katigorah+Diagnostic+Centre+Siddeshwar+Cachar+Assam" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+        <div style="background:var(--warm-white);border-radius:var(--radius-sm);border:1px solid var(--border-soft);padding:1.5rem;text-align:center;color:var(--text-muted);font-family:var(--font-body);font-size:0.8rem;margin-top:0.5rem;">
+          🗺️ Live map embed available on your hosted website via Google Maps iframe.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.5rem;">
+          <div class="logo-circle" style="width:36px;height:36px;font-size:0.65rem;">KDC</div>
+          <h4 style="margin:0;">Katigorah Diagnostic Centre</h4>
+        </div>
+        <p class="footer-brand-desc">Your trusted diagnostic partner in Katigorah, Cachar. Accurate results. Caring service. Specialist support.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">📘 Facebook</a>
+          <a href="#" aria-label="Instagram">📸 Instagram</a>
+          <a href="https://wa.me/918472898483" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Working Hours</h4>
+        <ul>
+          <li>Lab: 7:00 AM – 7:00 PM (All days)</li>
+          <li>Ultrasound: By appointment</li>
+          <li>ECG: Available daily</li>
+          <li>Reports: Same / next working day</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li>📍 Siddeshwar Part‑II, Katigorah</li>
+          <li>Cachar, Assam – 788805</li>
+          <li><a href="tel:8472898483">📞 8472898483</a></li>
+          <li><a href="tel:7002842800">📞 7002842800</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © <span id="footerYear"></span> Katigorah Diagnostic Centre. All rights reserved. &nbsp;|&nbsp; Designed with 🌿 care.
+    </div>
+  </div>
+</footer>
+
+<!-- ══ CHATBOT ══ -->
+<button class="chatbot-fab" id="chatFab" aria-label="Open chat">
+  💬<span class="fab-badge">AI</span>
+</button>
+
+<div class="chatbot-win" id="chatWin">
+  <div class="chatbot-head">
+    <div>
+      <h4>KDC Assistant 🌿</h4>
+      <span>Ask about timings, tests &amp; booking</span>
+    </div>
+    <button id="chatClose" aria-label="Close chat">✕</button>
+  </div>
+  <div class="chatbot-msgs" id="chatMsgs"></div>
+  <form class="chatbot-form" id="chatForm">
+    <input type="text" id="chatInput" placeholder="Type your question…" autocomplete="off">
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<script>
+  /* ── i18n ── */
+  const i18n = {
+    en:{navHome:"Home",navDoctors:"Doctors",navTests:"Tests & Prices",navUltrasound:"Ultrasound",navAppointment:"Appointment",navContact:"Contact",heroTagline:"USG starting ₹1300 • ECG Available",heroHeading:"Accurate Diagnosis. Trusted Care.",heroSubtext:"Comprehensive pathology, ultrasound and ECG services with experienced visiting specialists.",btnUSG:"🩻 Book Ultrasound",btnDoc:"📅 Book Doctor",btnWA:"💬 Get Report on WhatsApp",doctorsHeading:"Visiting Doctors",doctorsSubtitle:"Experienced specialists visit on scheduled days. Prior appointment recommended.",testsHeading:"Tests & Prices",testsSubtitle:"Search for any test, see the price and book instantly. Sample collection 7 AM–7 PM daily.",waHeading:"Get Report on WhatsApp",waSubtitle:"No more waiting. Receive your lab report directly on WhatsApp.",contactHeading:"Contact & Location",contactSubtitle:"Walk in or call for tests, ultrasound, ECG or doctor appointments."},
+    hi:{navHome:"होम",navDoctors:"डॉक्टर",navTests:"टेस्ट व कीमत",navUltrasound:"अल्ट्रासाउंड",navAppointment:"अपॉइंटमेंट",navContact:"संपर्क",heroTagline:"यूएसजी ₹1300 से • ईसीजी उपलब्ध",heroHeading:"सटीक जांच। भरोसेमंद देखभाल।",heroSubtext:"काठीगोड़ा डायग्नोस्टिक सेंटर में पैथोलॉजी, अल्ट्रासाउंड और ईसीजी की सुविधा।",btnUSG:"🩻 अल्ट्रासाउंड बुक करें",btnDoc:"📅 डॉक्टर बुक करें",btnWA:"💬 व्हाट्सऐप पर रिपोर्ट",doctorsHeading:"विजिटिंग डॉक्टर",doctorsSubtitle:"निर्धारित दिनों में अनुभवी विशेषज्ञ डॉक्टरों से परामर्श लें।",testsHeading:"टेस्ट व कीमत",testsSubtitle:"कोई भी टेस्ट खोजें, कीमत देखें और बुक करें।",waHeading:"व्हाट्सऐप पर रिपोर्ट पाएं",waSubtitle:"काउंटर पर इंतजार न करें। अपनी रिपोर्ट सीधे व्हाट्सऐप पर पाएं।",contactHeading:"संपर्क व लोकेशन",contactSubtitle:"टेस्ट, अल्ट्रासाउंड या अपॉइंटमेंट के लिए आएं या कॉल करें।"},
+    as:{navHome:"হোম",navDoctors:"ডাক্তৰ",navTests:"টেষ্ট আৰু মূল্য",navUltrasound:"আল্ট্ৰাছাউণ্ড",navAppointment:"এপয়েন্টমেন্ট",navContact:"যোগাযোগ",heroTagline:"USG ₹1300 ৰ পৰা • ECG সুবিধা",heroHeading:"সঠিক নিৰ্ণয়। বিশ্বাসযোগ্য যত্ন।",heroSubtext:"কাটিগড়া ডায়াগনষ্টিক চেণ্টাৰত পেথলজি, আল্ট্ৰাছাউণ্ড আৰু ECGৰ সুবিধা।",btnUSG:"🩻 আল্ট্ৰাছাউণ্ড বুক কৰক",btnDoc:"📅 ডাক্তৰ বুক কৰক",btnWA:"💬 WhatsAppত ৰিপৰ্ট",doctorsHeading:"ভিজিটিং ডাক্তৰবৃন্দ",doctorsSubtitle:"নিৰ্ধাৰিত দিনত অভিজ্ঞ বিশেষজ্ঞ ডাক্তৰৰ সৈতে পৰামৰ্শ কৰক।",testsHeading:"টেষ্ট আৰু মূল্য",testsSubtitle:"যিকোনো টেষ্ট বিচাৰক আৰু তৎক্ষণাৎ বুক কৰক।",waHeading:"WhatsAppত ৰিপৰ্ট লওক",waSubtitle:"কাউণ্টাৰত অপেক্ষা নকৰিব। পোনপটীয়াকৈ WhatsAppত ৰিপৰ্ট পাওক।",contactHeading:"যোগাযোগ আৰু ঠিকনা",contactSubtitle:"টেষ্ট, আল্ট্ৰাছাউণ্ড বা ডাক্তৰৰ বাবে আহক বা ফোন কৰক।"},
+    bn:{navHome:"হোম",navDoctors:"ডাক্তার",navTests:"টেস্ট ও মূল্য",navUltrasound:"আল্ট্রাসাউন্ড",navAppointment:"অ্যাপয়েন্টমেন্ট",navContact:"যোগাযোগ",heroTagline:"ইউএসজি ₹1300 থেকে • ইসিজি উপলব্ধ",heroHeading:"সঠিক ডায়গনসিস। বিশ্বস্ত যত্ন।",heroSubtext:"কাটিগড়া ডায়াগনস্টিক সেন্টারে প্যাথলজি, আল্ট্রাসাউন্ড ও ECG সেবা।",btnUSG:"🩻 আল্ট্রাসাউন্ড বুক করুন",btnDoc:"📅 ডাক্তার বুক করুন",btnWA:"💬 হোয়াটসঅ্যাপে রিপোর্ট",doctorsHeading:"ভিজিটিং ডাক্তারবৃন্দ",doctorsSubtitle:"নির্ধারিত দিনে অভিজ্ঞ বিশেষজ্ঞ ডাক্তারদের সাথে পরামর্শ করুন।",testsHeading:"টেস্ট ও মূল্য",testsSubtitle:"যেকোনো টেস্ট খুঁজুন এবং তৎক্ষণাৎ বুক করুন।",waHeading:"হোয়াটসঅ্যাপে রিপোর্ট নিন",waSubtitle:"কাউন্টারে অপেক্ষা করবেন না। সরাসরি হোয়াটসঅ্যাপে রিপোর্ট পান।",contactHeading:"যোগাযোগ ও ঠিকানা",contactSubtitle:"টেস্ট, আল্ট্রাসাউন্ড বা অ্যাপয়েন্টমেন্টের জন্য আসুন বা কল করুন।"}
+  };
+
+  function applyLang(lang) {
+    const d = i18n[lang] || i18n.en;
+    document.querySelectorAll("[data-i18n]").forEach(el => { const k = el.getAttribute("data-i18n"); if (d[k]) el.textContent = d[k]; });
+  }
+
+  /* ── Reveal ── */
+  function initReveal() {
+    const els = document.querySelectorAll(".reveal,.reveal-left,.reveal-right");
+    if ("IntersectionObserver" in window) {
+      const io = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("visible"); io.unobserve(e.target); } }); }, {threshold:0.12});
+      els.forEach(el => io.observe(el));
+    } else { els.forEach(el => el.classList.add("visible")); }
+  }
+
+  /* ── Nav highlight ── */
+  function initNav() {
+    const ids = ["home","doctors","tests","booking","wa-report","contact"];
+    const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
+    const links = document.querySelectorAll(".nav-links a");
+    function tick() {
+      const top = window.scrollY + 130; let cur = "home";
+      sections.forEach(s => { if (top >= s.offsetTop) cur = s.id; });
+      links.forEach(a => { const h = a.getAttribute("href").replace("#",""); a.classList.toggle("active-link", h === cur); });
+    }
+    window.addEventListener("scroll", tick, {passive:true}); tick();
+  }
+
+  /* ── Search ── */
+  function initSearch() {
+    function filterTests(q) { document.querySelectorAll("#testsBody tr").forEach(r => { r.style.display = q ? (r.innerText.toLowerCase().includes(q) ? "" : "none") : ""; }); }
+    function filterDocs(q)  { document.querySelectorAll(".doctor-card").forEach(c => { c.style.display = q ? (c.innerText.toLowerCase().includes(q) ? "" : "none") : ""; }); }
+    const gs = document.getElementById("globalSearch");
+    const ts = document.getElementById("testSearch");
+    if (gs) gs.addEventListener("input", () => { const q = gs.value.trim().toLowerCase(); filterTests(q); filterDocs(q); if (ts) ts.value = gs.value; });
+    if (ts) ts.addEventListener("input", () => filterTests(ts.value.trim().toLowerCase()));
+  }
+
+  /* ── USG Price ── */
+  function initUsgPrice() {
+    const sel = document.getElementById("usgType");
+    const out = document.getElementById("usgPrice");
+    if (!sel||!out) return;
+    sel.addEventListener("change", () => { const p = parseInt((sel.selectedOptions[0]||{}).getAttribute?.("data-price")||"0",10); out.textContent = "₹"+(p||0).toLocaleString("en-IN"); });
+  }
+
+  /* ── Forms ── */
+  function initForms() {
+    const uf = document.getElementById("usgForm");
+    if (uf) uf.addEventListener("submit", e => { e.preventDefault(); alert("✅ Ultrasound booking submitted! Our staff will call you to confirm the slot."); uf.reset(); document.getElementById("usgPrice").textContent = "₹0"; });
+    const af = document.getElementById("apptForm");
+    if (af) af.addEventListener("submit", e => { e.preventDefault(); alert("✅ Appointment request submitted! Our staff will contact you shortly."); af.reset(); });
+    const wb = document.getElementById("waBtn");
+    if (wb) wb.addEventListener("click", () => {
+      const id = document.getElementById("waId").value.trim();
+      const mob = document.getElementById("waMobile").value.trim();
+      if (!id||!mob) { alert("Please enter your Patient ID and mobile number."); return; }
+      window.open("https://wa.me/918472898483?text="+encodeURIComponent("Namaste! I would like my lab report.\nPatient ID: "+id+"\nMobile: "+mob), "_blank");
+    });
+  }
+
+  /* ── Doctor book buttons ── */
+  function initDoctorBtns() {
+    document.querySelectorAll(".doctor-book-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const name = btn.getAttribute("data-doctor");
+        const sel = document.getElementById("apptDoctor");
+        if (sel) sel.value = name;
+        document.getElementById("appointment").scrollIntoView({behavior:"smooth"});
+      });
+    });
+  }
+
+  /* ── Test book buttons ── */
+  function initTestBtns() {
+    document.querySelectorAll(".test-book-btn").forEach(btn => {
+      btn.addEventListener("click", () => alert("Thank you! Our team will contact you shortly to confirm your booking for: " + btn.getAttribute("data-test")));
+    });
+  }
+
+  /* ── Chatbot ── */
+  function initChatbot() {
+    const fab=document.getElementById("chatFab"), win=document.getElementById("chatWin"),
+          cls=document.getElementById("chatClose"), msgs=document.getElementById("chatMsgs"),
+          form=document.getElementById("chatForm"), inp=document.getElementById("chatInput");
+
+    function addMsg(text,who){ const r=document.createElement("div"); r.className="chat-msg "+who; const b=document.createElement("div"); b.className="chat-bubble"; b.textContent=text; r.appendChild(b); msgs.appendChild(r); msgs.scrollTop=msgs.scrollHeight; }
+
+    function reply(msg){
+      const m=msg.toLowerCase();
+      if(!m.trim()) return "Please type a question like: doctor timing, test price or booking help.";
+      if(m.includes("time")||m.includes("timing")||m.includes("hour")||m.includes("open")) return "Our lab is open 7:00 AM – 7:00 PM daily.\n\nDoctor schedule:\n• Dr. Taiyeebur – Every Thursday 3 PM+\n• Dr. Piyalee Nath – Every Sunday\n• Dr. Aminul Laskar – Mon, Wed & Fri\n• Dr. Forida Begum – Everyday";
+      if(m.includes("usg")||m.includes("ultrasound")) return "Ultrasound (USG) starts at ₹1300 for abdominal scans. Obstetric USG is ₹1500. Book online or call 8472898483.";
+      if(m.includes("ecg")) return "ECG is available daily at around ₹400. Call 8472898483 to confirm the slot.";
+      if(m.includes("price")||m.includes("cost")||m.includes("test")) return "Popular tests:\n• CBC + ESR – ₹500\n• Lipid Profile – ₹800\n• TSH – ₹300\n• HbA1C – ₹600\n• Dengue – ₹1050\n• USG – from ₹1300\n• ECG – ₹400";
+      if(m.includes("where")||m.includes("location")||m.includes("address")) return "Katigorah Diagnostic Centre,\nSiddeshwar Part-II, Katigorah,\nCachar, Assam – 788805.\n\nSearch us on Google Maps!";
+      if(m.includes("book")||m.includes("appointment")) return "To book:\n• Ultrasound → Use the Ultrasound Booking form\n• Doctor → Use the Doctor Appointment form\n• Lab tests → Walk in 7 AM–7 PM";
+      if(m.includes("report")||m.includes("whatsapp")) return "Go to 'Get Report on WhatsApp', enter your Patient ID and mobile. Or WhatsApp us at +91 84728 98483.";
+      if(m.includes("hi")||m.includes("hello")||m.includes("namaste")||m.includes("help")) return "Namaste! 🌿 Welcome to KDC Assistant.\n\nYou can ask me about:\n• Doctor timing\n• Test prices\n• Ultrasound / ECG\n• Location & booking";
+      return "Try asking:\n• 'What are the doctor timings?'\n• 'How much is an ultrasound?'\n• 'Where are you located?'\n• 'How do I book a test?'";
+    }
+
+    addMsg("Namaste! 🌿 I am the KDC assistant. Ask me about doctor timings, test prices, ultrasound, ECG, location or booking.","bot");
+    fab.addEventListener("click",()=>{ win.classList.toggle("open"); if(win.classList.contains("open")) inp.focus(); });
+    cls.addEventListener("click",()=>win.classList.remove("open"));
+    form.addEventListener("submit",e=>{ e.preventDefault(); const t=inp.value.trim(); if(!t)return; addMsg(t,"user"); setTimeout(()=>addMsg(reply(t),"bot"),180); inp.value=""; });
+  }
+
+  /* ── Nav toggle ── */
+  function initNavToggle() {
+    const btn=document.getElementById("navToggle"), nav=document.getElementById("navLinks");
+    btn.addEventListener("click",()=>{ const hidden=getComputedStyle(nav).display==="none"; nav.style.display=hidden?"flex":""; });
+  }
+
+  /* ── Boot ── */
+  document.addEventListener("DOMContentLoaded",()=>{
+    applyLang("en");
+    initReveal(); initNav(); initSearch(); initUsgPrice(); initForms(); initDoctorBtns(); initTestBtns(); initChatbot(); initNavToggle();
+    document.getElementById("footerYear").textContent = new Date().getFullYear();
+    document.getElementById("langSelect").addEventListener("change",e=>applyLang(e.target.value));
+  });
+</script>
+</body>
+</html>
